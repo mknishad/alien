@@ -10,6 +10,7 @@ package assignmentone;
  * @author Nishad Khan
  */
 public abstract class Alien {
+
     protected String name;
     protected String color;
     private int numberOfEyes;
@@ -22,7 +23,11 @@ public abstract class Alien {
 
     @Override
     public String toString() {
-        return "Alien{" + "name=" + name + ", color=" + color + ", numberOfEyes=" + numberOfEyes + '}';
+        return "Alien{"
+                + "name=" + name
+                + ", color=" + color
+                + ", numberOfEyes=" + numberOfEyes
+                + '}';
     }
-    
+
 }
